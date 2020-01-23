@@ -1,0 +1,1327 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+a {
+	color: #845e75;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+
+/* START */
+body {
+	/*background: url('/web/20180107112934im_/http://konibe.ge/image/body-bg.jpg');*/
+	background: url(/web/20180107112934im_/http://konibe.ge/images/bodybg.png);
+}
+
+#navbar-fixed-top {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1030;
+	margin-bottom: 0;
+	text-align: center;
+	padding: 0 0 0 0;
+	/*background: url(/web/20180107112934im_/http://konibe.ge/images/sm-sprt.png) repeat-x 0 -61px;*/
+}
+
+#wrapper {
+	width: 1048px; 
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;	
+	background: url(/web/20180107112934im_/http://konibe.ge/images/bbg.png) no-repeat -1023px bottom;
+	padding-bottom: 120px;
+	padding-top: 32px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	background: url(/web/20180107112934im_/http://konibe.ge/images/h-corners.png) no-repeat -86px 0;
+	overflow: hidden;
+	clear: both;
+}
+#header-inner {
+
+}
+#header .blck {
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	float: left;
+	width: 70px;
+}
+
+/* Header row1 */
+#header .row1 {	
+	height: 110px;
+	margin: 0 0 0 74px;	
+	overflow: hidden;
+	clear: both;
+}
+#header .row1 .blck-cont { 
+	width: 900px;
+	background: url(/web/20180107112934im_/http://konibe.ge/images/h-bg.png) repeat-x top left;
+	padding: 25px 0 0 0;
+	float: left;
+}
+#header .row1 .blck-r {
+	background: url('/web/20180107112934im_/http://konibe.ge/images/h-corners.png') no-repeat top left;
+	float: right;
+	width: 74px;
+	height: 100%;
+	vertical-align: top;
+}
+
+#logo { 
+	float: left;
+	width: 232px;
+	height: 78px;
+	margin-right: 10px;
+	margon-top: -10px;
+}
+#logo a  {
+	background: url(/web/20180107112934im_/http://konibe.ge/images/logo.png);
+	width: 228px;
+	height: 120px;
+	display: block;
+	background-color: transparent;
+	text-indent: -9999px;
+	 *text-indent: -9999px;
+}
+
+#slogan {
+	float: left;
+	height: 65px;
+	line-height: 68px;
+	background: url(/web/20180107112934im_/http://konibe.ge/images/sm-sprt.png) no-repeat 0 4px;
+	padding: 0 10px;
+	font-size: 14px; 
+	font-style:	italic;
+    font-family: "Times New Roman";
+	color: #767676;
+	text-shadow: #FFF 2px 2px 1px;
+}
+#top-menu { float: right; height: 65px; }
+#top-menu ul { padding: 0; margin: 0; list-style: none; overflow: hidden;	padding-top: 22px; }
+#top-menu ul li { display: inline-block; *display: inline; float: left; padding-left: 17px;   margin-left: 12px; height: 25px;  background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat -134px -135px; }
+#top-menu ul li a {
+ display: block; padding: 0 17px 0 0;  color: #5e5e5e; height: 25px; font-size: 12px; font-family: Arial, Georgia, sans-serif; text-shadow: #FFF 2px 2px 1px; text-decoration: none;
+ background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat right -135px;
+ line-height: 23px;
+}
+#top-menu ul li.active, #top-menu ul li:hover {
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat -134px -106px;
+}
+#top-menu ul li.active a, #top-menu ul li:hover a{
+	color: #FFF; text-shadow: #835d74 2px 2px 1px;  
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat right -106px;
+}
+/* Header row2 */
+#header .row2 {
+	background: url(/web/20180107112934im_/http://konibe.ge/images/conteiner-bg.png) repeat-y 0 35px;
+	padding: 20px 4px 10px 72px;
+	overflow: hidden;
+	clear: both;
+}
+
+#header .row2 .blck-l {
+	float: left;
+}
+#header .row2 .blck-l img {
+ -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari, Chrome */
+  -khtml-border-radius: 15px; /* KHTML */
+  border-radius: 15px; /* CSS3 */
+
+-webkit-box-shadow: -4px 2px 8px silver;
+    -moz-box-shadow: -4px 2px 8px silver;
+    box-shadow: -4px 2px 8px silver;
+}
+#header .row2 .blck-r {
+	float: left;
+	width: 308px;
+}
+#header .row2 .box {
+	
+}
+#header .row2 .box .box-content {
+	padding: 9px 0 9px 50px;
+}
+#header .row2 .box .box-content.address { width: 215px; }
+#header .row2 .box .box-footer { display: block; height: 8px; background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat top left; }
+
+#header .row2 .phone {
+	font-family: "Times New Roman", Arial, sans-serif;
+	font-size: 14px;
+	color: black;
+}
+#header .row2 .phone span {
+	font-size: 14px;
+}
+#header .row2 .address{
+	font-family: "Times New Roman", Arial, sans-serif;
+	color: #56524b;
+	font-style: italic;
+	font-size: 14px;
+}
+#header .row2 .cart a {
+    text-decoration: none;
+    color: black;
+}
+#header .row2 .cart a span span {
+	color: #815b72;
+	font-size: 11px;
+	font-family: Arial, Georgia, sans-serif;
+}
+#header .row2 .search input[type="submit"] {
+	border: none;
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat -144px -25px;
+	width: 24px;
+	height: 22px;
+	margin-left: 6px;
+}
+
+#header #links {
+    
+}
+#header #links a {
+  
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 1024px;
+/*	height: 1%;*/
+	position: relative;
+	background: url(/web/20180107112934im_/http://konibe.ge/images/conteiner-bg.png);	
+	padding: 0 12px;
+	min-height: 500px;
+	padding-bottom: 30px;
+	-webkit-box-shadow: 0 14px 21px -13px #000;
+    -moz-box-shadow: 0 14px 21px -13px #000;
+	box-shadow: 0 14px 21px -13px #000;
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background: url(/web/20180107112934im_/http://konibe.ge/images/bbg.png) no-repeat top left;	
+	padding: 40px 0 0 0;
+        min-height: 400px;
+}
+#content {
+	padding: 0 290px 0 290px;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	color: #484848;
+	line-height: 20px;
+}
+#content  ul {
+	list-style: circle;
+	margin: 5px 15px;
+	padding: 0 20px;
+	color: #330033;
+}
+h2 {
+	font-family: "Times New Roman", Arial, sans-serif;
+	color: #330033;
+	font-size: 24px;
+	margin-bottom: 9px;
+	font-style: italic;
+	font-weight: normal;
+}
+#content.content-w2 h2{
+	margin-bottom: 25px;
+}
+#content.content-w2 section h2, #content.content-w2 section h3{
+	margin: 10px 10px; font-size: 22px; clear: both;
+}
+#content.content-w2 {
+	padding: 0 20px 0 290px;
+}
+#breadcrumbs {
+	margin-bottom: 22px;
+	color: #767676;
+	font-size: 12px;
+}
+#breadcrumbs a {
+	color: #767676;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar .box {
+	padding: 0 0 9px 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.sidebar .box .box-heading {
+	display: block;
+	font-size: 18px; 
+	font-style:	italic;
+    font-family: "Times New Roman";
+	color: #330033;
+	margin-bottom: 18px;
+}
+.sidebar .box .box-content {
+	clear: both;
+	overflow: hidden;
+}
+.sidebar .box .box-content p {
+	padding: 8px 0 0 0;
+	text-align: justify;
+	margin: 0;
+}
+.sidebar .box, .sidebar .box a{
+	font-size: 13x; 
+    font-family: Arial, Georgia, sans-serif;
+	color: #484848;
+	text-decoration: none;
+}
+.sidebar .box  .box-content li a {
+	font-size: 13x; 
+}
+.sidebar .box a:hover {
+	color: #7f0051;
+}
+.sidebar .box .box-footer {
+	display: block;
+	height: 8px;	
+}
+.sidebar .box.last .box-footer { display: none; }
+
+/* Thumbnails Catalog Gallery */
+#content ul.thumbnails  {
+	padding: 0; margin: 0;
+}
+.thumbnails li {
+	display: inline-block;
+	*display: inline;
+	float: left;
+	margin-bottom: 18px;
+	
+}
+.thumbnails.three-cols li {
+	margin-right: 18px;
+}
+.thumbnails.three-cols li.last { margin-right: 0; }
+.thumbnails.three-cols li a {
+	display: block;
+
+}
+.thumbnails.three-cols li img {
+	width: 135px;
+	height: 102px;
+		background: #FFF;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	-khtml-border-radius: 10px; /* KHTML */
+	border-radius: 10px; /* CSS3 */
+}
+
+/* CATALOG */
+.catalog .thumbnails.three-cols li img {
+	width: 215px;
+	height: 140px;
+}
+.catalog .thumbnails.three-cols li {
+	margin: 0 20px 15px 0;
+}
+.catalog .thumbnails.three-cols li  a {
+	margin-bottom: 6px;
+	color: #330033;
+	font: 13px Arial, Georgia, Tahoma, sans-serif;
+}
+
+.catalog-product-grid {
+	width: 100%;
+/*
+border-collapse:separate;
+border-spacing: 0 10px; 
+*/
+}
+.catalog-product-grid  th {
+	color: #330033;
+	font-size: 12px;
+    font-weight: bold;
+	border-right: 1px solid #bfbfbf;
+	vertical-align: middle;
+	padding: 10px;
+	line-height: 13px;
+	border-bottom: 1px solid #bfbfbf;
+}
+.catalog-product-grid .thumbnail {
+	height: 100px;
+	width: 130px;
+	vertical-align: middle;	
+	background: #FFF;
+	margin-right: 10px;
+        border: 1px solid silver;
+}
+.catalog-product-grid tr td {
+	background: rgba(220, 187, 187, .20); 
+	padding: 10px;
+	vertical-align: middle;
+	border-right: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	text-align: center;
+}
+.catalog-product-grid tr td.thumb, .catalog-product-grid tr td.name {
+	text-align: left;
+}
+.catalog-product-grid tr td.addtocart, .catalog-product-grid th.addtocart {
+	border-right: none;
+}
+.catalog-product-grid tr td.addtocart input {
+    width: 25px;    
+    border: 1px solid silver;
+    text-align: center;
+    background: #FFF;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */
+}
+
+
+.button {
+	display: inline-block;
+	width: 125px;
+	height: 26px;
+	padding: 8px 0 0 0;
+	text-align: center;	
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat 0 -98px; 
+	color: #FFF;
+	font: italic 15px "Times New Roman", Arial, sans-serif;
+	text-decoration: none;
+	margin: 10px 0;
+}
+.button_addtocart {
+	display: inline-block;
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat -144px -58px; 
+	width: 85px;
+	height: 26px;
+	padding: 6px 0 0 40px;
+	color: #FFF;
+	font: italic 16px "Times New Roman", Arial, sans-serif;
+	text-decoration: none;
+	margin: 10px 0;
+        border: none;
+}
+input[type=button].button_addtocart {
+    width: 125px;
+    height: 32px;
+    padding: 3px 0 0 30px;
+}
+input.button {
+    width: 125px;
+    height: 32px;
+    padding: 3px 0 0 5px;
+    border: none;
+}
+
+
+
+.product-details {
+	margin-right: 30px;
+}
+.product-details .image-block a {
+	display: inline-block;
+	margin-right: 10px;
+}
+.product-details .image-block img {
+	background: #767676;
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+	-khtml-border-radius: 3px; /* KHTML */
+	border-radius: 3px; /* CSS3 */
+	padding: 1px;
+}
+.product-details .image-block .view_thumbnails img {
+	max-width: 100px;
+	max-height: 70px;
+}
+
+
+/* Cart */
+.cart-info table {
+	width: 100%;
+}
+
+.cart-info tr td , .cart-info tr th{
+	border: 1px solid #8f8f8f; padding: 3px 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+.cart-info  tr th {
+	color: #330033;
+	font-size: 12px;
+    font-weight: bold;
+	vertical-align: middle;
+	padding: 10px;
+	line-height: 13px;
+}
+
+.cart-info tr td.thumb, .cart-info tr td.name {
+	text-align: left;
+}
+.cart-info img {
+	background: #767676;
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+	-khtml-border-radius: 3px; /* KHTML */
+	border-radius: 3px; /* CSS3 */
+	padding: 1px;
+}
+
+.cart-info input[type='text'] {
+    width: 25px;    
+    border: 1px solid silver;
+    text-align: center;
+    background: #FFF;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */
+}
+
+
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	float: left;
+	width: 270px; /* 268 - 60*/
+	margin-left: -100%;
+	position: relative;
+	padding: 40px 0 0 0;
+        min-height: 400px;
+}
+
+#sideLeft .box .box-heading, #sideLeft .box .box-content { padding: 0 0 0 60px; }
+#sideLeft .box .box-content { padding: 0 0 9px 60px; }
+#sideLeft .box .box-footer { background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat top left; }
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 270px;
+	margin-left: -270px;
+	position: relative;
+	padding: 40px 0 0 0;
+        min-height: 400px;
+}
+
+#sideRight .box .box-heading, #sideRight .box .box-content { padding: 0 60px 0 0; }
+#sideRight .box .box-content { padding: 0 60px 9px 0; }
+#sideRight .box .box-footer { background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat left -8px; }
+#sideRight .box .box-content a { color: #330033; font-size: 13px; text-decoration: underline; }
+#sideRight .box .box-content a:hover { color: #7F0051; text-decoration: none; }
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 1024px;
+	margin: -120px auto 0;
+	height: 120px;
+	position: relative;
+	text-align: center;
+	color: gray;
+}
+#footer .row1 {	
+	display: inline-block;
+	*display: inline;
+	overflow: hidden;
+	padding: 30px 0 0 45px;
+	margin-bottom: 16px;
+}
+#footer ul li {
+	display: inline-block;
+	*display: inline;
+	float: left;
+	margin-right: 45px;
+}
+#footer ul li a {
+	color: gray;
+	text-decoration: underline;	
+}
+/* OTHER */
+.br12 {
+	border-radius: 12px;
+}
+.h24, .sidebar .box .h24 {
+	font-size: 24px;
+}
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.date {
+	display: inline-block;
+	height: 25px; width: 70px;
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat 0 -26px;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ICONS */
+.icon {
+	display: inline-block;
+	height: 18px; width: 18px;
+	vertical-align: bottom;
+	background-image: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png');
+	background-repeat: no-repeat;
+	margin-right: 5px;
+}
+
+.languages{
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	}
+
+	.languages #GEO{
+		width: 30px;
+		height: 30px;
+		margin: 8px;
+		background: url(/web/20180107112934im_/http://konibe.ge/images/geo.png) no-repeat center;
+		-webkit-transition: all 0.3s ease-in 0s;
+		-moz-transition: all 0.3s ease-in 0s;
+		-mc-transition: all 0.3s ease-in 0s;
+		-o-transition: all 0.3s ease-in 0s;
+		transition: all 0.3s ease-in 0s;
+	}
+	
+		.languages #GEO:hover{
+			background: url(/web/20180107112934im_/http://konibe.ge/images/geo_hover.png) no-repeat center;
+			-webkit-transition: all 0.3s ease-out 0s;
+			-moz-transition: all 0.3s ease-out 0s;
+			-mc-transition: all 0.3s ease-out 0s;
+			-o-transition: all 0.3s ease-out 0s;
+			transition: all 0.3s ease-out 0s;
+		}
+	
+	.languages #UK{
+		width: 30px;
+		height: 30px;
+		margin: 8px;
+		background: url(/web/20180107112934im_/http://konibe.ge/images/uk.png) no-repeat center;
+		-webkit-transition: all 0.3s ease-in 0s;
+		-moz-transition: all 0.3s ease-in 0s;
+		-mc-transition: all 0.3s ease-in 0s;
+		-o-transition: all 0.3s ease-in 0s;
+		transition: all 0.3s ease-in 0s;
+	}
+	
+		.languages #UK:hover{
+			background: url(/web/20180107112934im_/http://konibe.ge/images/uk_hover.png) no-repeat center;
+			-webkit-transition: all 0.3s ease-out 0s;
+			-moz-transition: all 0.3s ease-out 0s;
+			-mc-transition: all 0.3s ease-out 0s;
+			-o-transition: all 0.3s ease-out 0s;
+			transition: all 0.3s ease-out 0s;
+		}
+	
+	.languages #RUS{
+		width: 30px;
+		height: 30px;
+		margin: 8px;
+		background: url(/web/20180107112934im_/http://konibe.ge/images/rus.png) no-repeat center;
+		-webkit-transition: all 0.3s ease-in 0s;
+		-moz-transition: all 0.3s ease-in 0s;
+		-mc-transition: all 0.3s ease-in 0s;
+		-o-transition: all 0.3s ease-in 0s;
+		transition: all 0.3s ease-in 0s;
+	}
+	
+		.languages #RUS:hover{
+			background: url(/web/20180107112934im_/http://konibe.ge/images/rus_hover.png) no-repeat center;
+			-webkit-transition: all 0.3s ease-out 0s;
+			-moz-transition: all 0.3s ease-out 0s;
+			-mc-transition: all 0.3s ease-out 0s;
+			-o-transition: all 0.3s ease-out 0s;
+			transition: all 0.3s ease-out 0s;
+		}
+		
+		.facebook{
+			width: 21px;
+			height: 21px;
+			background: url(/web/20180107112934im_/http://konibe.ge/images/facebook.png);
+			-webkit-transition: all 0.3s ease-in 0s;
+			-moz-transition: all 0.3s ease-in 0s;
+			-mc-transition: all 0.3s ease-in 0s;
+			-o-transition: all 0.3s ease-in 0s;
+			transition: all 0.3s ease-in 0s;
+		}
+		
+		.facebook:hover{
+			width: 21px;
+			height: 21px;
+			background: url(/web/20180107112934im_/http://konibe.ge/images/facebook_hover.png);
+			-webkit-transition: all 0.3s ease-out 0s;
+			-moz-transition: all 0.3s ease-out 0s;
+			-mc-transition: all 0.3s ease-out 0s;
+			-o-transition: all 0.3s ease-out 0s;
+			transition: all 0.3s ease-out 0s;
+		}
+
+.icon-s2 {
+	width: 45px;
+	height: 46px;
+}
+.icon-phone {
+	background-position: -95px -25px;
+}
+.icon-email {
+	background-position: -115px -25px;
+}
+.icon-cart {
+	background-position: -71px -25px;
+}
+.icon-home {
+	background-position: 0 -52px;
+}
+.icon-mailto{
+	background-position: -45px -52px;
+}
+.icon-n3{
+	background-position: -90px -52px;
+}
+
+
+
+/* FORMS */
+/* CHECKOUT */
+.checkout-content .left {
+    float: left;
+    width: 48%;
+    padding-right: 20px;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+input[type='text'], input[type='password'], textarea {
+	background: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	padding: 4px 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+        
+
+    border: 1px solid silver;
+    background: #FFF;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */
+
+}
+textarea {
+    max-width: 500px;
+}
+select {
+	background: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+}
+label {
+	cursor: pointer;
+}
+form td {
+    padding: 5px;
+}
+
+
+.color-bl {
+	color: #0099ff; text-decoration: none;
+}
+
+table.radio td {
+    padding: 5px;
+}
+b {
+    text-align: left;
+}
+/* messages */
+.success, .warning, .attention, .information {
+	padding: 10px 10px 10px 33px;
+	margin-bottom: 15px;
+	color: #555555;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.success {
+	background: #EAF7D9 url('http://web.archive.org/web/20180107112934im_/http://djekomebel.ru/catalog/view/theme/djekomebel/image/success.png') 10px center no-repeat;
+	border: 1px solid #BBDF8D;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.warning {
+	background: #FFD1D1 url('http://web.archive.org/web/20180107112934im_/http://djekomebel.ru/catalog/view/theme/djekomebel/image/warning.png') 10px center no-repeat;
+	border: 1px solid #F8ACAC;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.attention {
+	background: #FFF5CC url('http://web.archive.org/web/20180107112934im_/http://djekomebel.ru/catalog/view/theme/djekomebel/image/attention.png') 10px center no-repeat;
+	border: 1px solid #F2DD8C;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.success .close, .warning .close, .attention .close, .information .close {
+	float: right;
+	padding-top: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+.required {
+	color: #FF0000;
+	font-weight: bold;
+}
+.error {
+	display: block;
+	color: #FF0000;
+}
+.help {
+	color: #999;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	display: block;
+}
+
+/* DEF */
+.checkout-product table {
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.checkout-product td {
+	padding: 7px;
+}
+.checkout-product thead td {
+	color: #4D4D4D;
+	font-weight: bold;
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #DDDDDD;
+}
+.checkout-product thead .name, .checkout-product thead .model {
+	text-align: left;
+}
+.checkout-product thead .quantity, .checkout-product thead .price, .checkout-product thead .total {
+	text-align: right;
+}
+.checkout-product tbody td {
+	vertical-align: top;
+	border-bottom: 1px solid #DDDDDD;
+}
+.checkout-product tbody .name, .checkout-product tbody .model {
+	text-align: left;
+}
+.checkout-product tbody .quantity, .checkout-product tbody .price, .checkout-product tbody .total {
+	text-align: right;
+}
+.checkout-product tfoot td {
+	text-align: right;
+	border-bottom: 1px solid #DDDDDD;
+}
+#button-confirm {
+    width: auto;
+    border: 1px solid silver;
+    background: white;
+    color: gray;
+    padding: 8px;
+}
+
+.product-list > div {
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.product-list .right {
+	float: right;
+	margin-left: 15px;
+}
+.product-list > div + div {
+	border-top: 1px solid #EEEEEE;
+	padding-top: 16px;
+}
+.product-list .image {
+	float: left;
+	margin-right: 10px;
+}
+.product-list .image img {
+	padding: 3px;
+	border: 1px solid #E7E7E7;
+}
+.product-list .name {
+	margin-bottom: 3px; clear: both;
+}
+.product-list .name a {
+	color: #38B0E3;
+	font-weight: bold;
+	text-decoration: none;
+}
+.product-list .description {
+	line-height: 15px;
+	margin-bottom: 5px;
+	color: #4D4D4D;
+}
+.product-list .rating {
+	color: #7B7B7B;
+}
+.product-list .price {
+	float: right;
+	height: 50px;
+	margin-left: 8px;
+	text-align: right;
+	color: #333333;
+	font-size: 12px;
+        min-width: 40px;
+        padding-top: 40px;
+}
+.product-list .price-old {
+	color: #F00;
+	text-decoration: line-through;
+}
+.product-list .price-new {
+	font-weight: bold;
+}
+.product-list .price-tax {
+	font-size: 12px;
+	font-weight: normal;
+	color: #BBBBBB;
+}
+.product-list .cart {
+	margin-bottom: 3px;
+}
+.product-list .wishlist, .product-list .compare {
+	margin-bottom: 3px;
+}
+.product-list .wishlist a {
+	color: #333333;
+	text-decoration: none;
+	padding-left: 18px;
+	display: block;
+	background: url('http://web.archive.org/web/20180107112934im_/http://djekomebel.ru/catalog/view/theme/djekomebel/image/add.png') left center no-repeat;
+}
+.product-list .compare a {
+	color: #333333;
+	text-decoration: none;
+	padding-left: 18px;
+	display: block;
+	background: url('http://web.archive.org/web/20180107112934im_/http://djekomebel.ru/catalog/view/theme/djekomebel/image/add.png') left 60% no-repeat;
+}
+
+input[type="text"].input {
+	border: none;
+	display: inline-block;
+	padding: 8px 10px 5px 15px;
+	width: 150px;
+	height: 14px;	
+	background: url('/web/20180107112934im_/http://konibe.ge/images/sprt.png') no-repeat -175px -27px;
+	font-style: italic;
+        border: none;
+}
+#content div.left {
+	float: left;
+	width: 45%;
+}
+#content div.right {
+	float: right;
+	width: 45%;
+}
+.contact-info {
+    overflow: hidden;
+    clear: both;
+}
+
+.checkout-content {
+    overflow: hidden;
+    clear: both;
+}
+
+table.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+table.list td {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+table.list thead td {
+	background: rgba(220, 187, 187, .20);
+	padding: 0px 5px;
+}
+table.list thead td a, .list thead td {
+	text-decoration: none;
+	color: #222222;
+	font-weight: bold;
+}
+table.list tbody td {
+	vertical-align: top;
+	padding: 0px 5px;
+}
+table.list .left {
+	text-align: left;
+	padding: 7px;
+}
+table.list .right {
+	text-align: right;
+	padding: 7px;
+}
+table.list .center {
+	text-align: center;
+	padding: 7px;
+}
+table.radio {
+	width: 100%;
+	border-collapse: collapse;
+}
+table.radio td {
+	padding: 5px;
+	vertical-align: top;
+}
+table.radio td label {
+	display: block;
+}
+table.radio tr td:first-child {
+	width: 1px;
+}
+table.radio tr td:first-child input {
+	margin-top: 1px;
+}
+table.radio tr.highlight:hover td {
+	background: #F1FFDD;
+	cursor: pointer;
+}
+
+.order-list {
+	margin-bottom: 10px;
+}
+.order-list .order-id {
+	width: 49%;
+	float: left;
+	margin-bottom: 2px;
+}
+.order-list .order-status {
+	width: 49%;
+	float: right;
+	text-align: right;
+	margin-bottom: 2px;
+}
+.order-list .order-content {
+	padding: 10px 0px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+.order-list .order-content div {
+	float: left;
+	width: 33.3%;
+}
+.order-list .order-info {
+	text-align: right;
+}
+
+
+	#Paginator{
+		width: 100%;
+		height: auto;
+		margin: 5px 0 10px;
+		text-align: center;
+		float: left;
+	}
+
+	#Paginator a:link{
+		color: rgba(0,0,0,1.00);
+	}
+
+	#Paginator a:active{
+		color: rgba(0,0,0,1.00);
+	}
+
+	#Paginator a:visited{
+		color: rgba(0,0,0,1.00);
+	}
+	
+	#Paginator a:hover{
+		color: rgba(197,17,20,1.00);
+	}
+	.pagination_list{
+		width: auto;
+		margin: 0;
+		padding: 0 20px;
+		list-style: none !important;
+		border-radius: 4px;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	.production_big_image{
+		max-width: 440px;
+	}
+
+	.pagination_list li{
+		float: left;
+		margin: 4px 2px;
+		padding: 0 6px;
+		border-radius: 3px;
+		background: rgba(255,255,255,0.2);
+		box-shadow: 0px 0px 2px rgba(0,0,0,0.3) inset;
+	}
+
+	.pagination_list li:hover{
+		border-radius: 5px;
+		background: rgba(35,35,35,0.2);
+		
+	}
+
+	.pagination_list li a[nohref]{
+   		color: rgba(200,200,200,0.4);
+	}
+
+	.pagination_list li a[nohref]:hover{
+   		color: rgba(153,153,153,0.4) !important;
+	}
+
+	.pagination_list li:first-of-type{
+		margin-right: 20px;
+		border-radius: 3px;
+	}
+
+	.pagination_list li:last-of-type{
+		margin-left: 20px;
+		border-radius: 3px;
+	}
+	
+	.news_form{
+			width: 100%;
+			height: auto;
+			border-bottom: 1px dotted #330033;
+			float: left;
+	}
+	
+	.news_image{
+		width: 160px;
+		height: 104px;
+		background: #fff;
+		margin: 6px;
+		padding: 8px;
+		float: left;
+		border-radius: 6px;
+	}
+	
+	.news_image img{
+		width: 160px;
+		height: 104px;
+		border-radius: 6px;
+	}
+	
+	.floats{
+		float: right;
+		margin: 5px;
+	}
+	
+	.news_form h4{
+		width: 434px;
+		float: left;
+		font-size: 16px;
+		margin: 6px;
+		color: #880E41;
+		font-style: italic;
+		font-weight: normal;
+	}
+	
+	.news_text{
+		float: right;
+		width: 520px;
+		height: auto;
+		margin-bottom: 40px;
+	}
+	
+	.copyright_side{
+		float: left;
+		margin-left: 240px;
+	}
+	
+	.sulma_logo_side{
+		width: 85px;
+		height: 22px;
+		float: right;
+		margin-right: 240px;
+	}
+	
+	.images_items{
+		width: 238px;
+		height: auto;
+		float: right;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none !important;
+		margin-top: -10px !important;
+	}
+	
+	.images_items li{
+		width: 80px;
+		height: 55px;
+		margin: 3px;
+		padding: 2px;
+		background: #E8E7E3;
+		border: 1px solid #C0B7AF;
+		border-radius: 4px;
+	}
+	
+	.images_items li img{
+		width: 80px;
+		height: 55px;
+		margin: 0 !important;
+		padding: 0 !important;
+		background: none !important;
+		border: none !important;
+		border-radius: 2px;
+	}
+	
+	.images_items li img:hover{
+		opacity: 0.4;
+	}
+/*
+     FILE ARCHIVED ON 11:29:34 Jan 07, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:45:27 Dec 19, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 170.668
+  captures_list: 119.767
+  CDXLines.iter: 16.158 (3)
+  esindex: 0.015
+  PetaboxLoader3.resolve: 69.429
+  PetaboxLoader3.datanode: 117.62 (4)
+  RedisCDXSource: 1.735
+  exclusion.robots.policy: 0.212
+  exclusion.robots: 0.227
+  LoadShardBlock: 98.158 (3)
+*/

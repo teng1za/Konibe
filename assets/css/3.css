@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* -----------------------------------------------------
+// News Module for Opencart v1.5.4   
+// Modified by villagedefrance                          
+// contact@villagedefrance.net                         
+//------------------------------------------------------
+*/
+
+/* News Module Box */
+.box-news {
+	background: #F8F8F8;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+	border: 1px solid #DBDEE1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 2px silver;
+	-moz-box-shadow: 0px 2px 2px silver;
+	box-shadow: 0px 2px 2px silver;
+}
+.box-news h4 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.box-news p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+/* News Information Page */
+.content-news {
+	background: #FBFBFB;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+	border: 1px solid #DBDEE1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 2px silver;
+	-moz-box-shadow: 0px 2px 2px silver;
+	box-shadow: 0px 2px 2px silver;
+}
+.content-news .news {
+	width: 100%;
+}
+.content-news .news a {
+	text-decoration: none;
+}
+.content-news .news h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	text-shadow: 0 1px 1px silver;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.content-news .news p {
+	margin: 5px 0px;
+}
+.content-news .news .image {
+	width: auto;
+	float: right;
+	margin: 5px;
+}
+/*
+     FILE ARCHIVED ON 12:58:32 Jan 07, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:45:28 Dec 19, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 94.685
+  esindex: 0.011
+  RedisCDXSource: 26.153
+  load_resource: 197.313
+  LoadShardBlock: 55.447 (3)
+  exclusion.robots: 0.122
+  CDXLines.iter: 10.78 (3)
+  PetaboxLoader3.datanode: 199.694 (4)
+  exclusion.robots.policy: 0.114
+  PetaboxLoader3.resolve: 51.37
+*/
